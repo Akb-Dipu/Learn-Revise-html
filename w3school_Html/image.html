@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Image</title>
+    <!--Favicon icon -->
+    <link rel="icon" type="image/x-icon" href="/Favicon.PNG">
+
+</head>
+<body>
+    <h1 align="center">Learn Image setup <br>Press F12 to read the code</h1>
+    <p>Image from the internet : </p>
+    <img src="https://www.nme.com/wp-content/uploads/2020/10/Among-Us-2.jpg" height="240px"width="240px">
+    <p>Image from local folder: </p>
+    <img src="pic/1.jpg" height="240px"width="240px">
+    <p>Alternative image text: if image cannot be shown</p>
+    <img src="" alt="Alternative text ">
+    <p>Below pic : Change Ur View mobile/pc zoom in out </p>
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="mat.jpg">
+        <source media="(min-width: 465px)" srcset="spy.png">
+        <img src="img_girl.jpg" style="width:auto;">
+      </picture>
+
+      <p> for download Put "download" in anchor tag </a></p>
+      <a  href="pic/1.jpg" download="">Click to download</a>
+    
+</body>
+</html>
